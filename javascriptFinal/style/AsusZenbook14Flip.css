@@ -1,0 +1,505 @@
+
+@font-face {
+    font-family: monterrat;
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+body{
+    justify-content: center;
+
+}
+
+main{
+    position: relative;
+    top:20px;
+}
+
+header{
+    background-color: rgb(196, 23, 179);
+    height: 120px;
+    width:101.3%;
+    position: relative;
+    left:-8;
+    top:-7.7;
+}
+
+.logosection h2{
+    display: inline-block;
+}
+
+.logosection{
+    position: absolute;
+    left: 70px;
+    padding:15px 0 30px;
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    left:85px;
+    border:5px rgb(255, 252, 255) solid;
+    border-radius: 80px;
+}
+
+
+
+.logosection h2{
+    color:rgb(255, 255, 255);
+    font-family: montserrat;
+    position: absolute;
+    top:26px;
+    left: 27px;
+}
+
+#h2{
+    position: absolute;
+    left: 170px;
+    top:23px;
+}
+
+nav a{
+    color:rgb(255, 255, 255);
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 20px;
+    position: relative;
+    left: 500px;
+    top: 45px;
+}
+
+nav a::before{
+    content: "";
+    position: absolute;
+    bottom:-3px;
+    height:3px;
+    left:0;
+    width:100%;
+    transition: 0.5s;
+    border-radius: 25px;
+    transform: scaleX(0);
+    background: rgb(255, 255, 255);
+}
+
+nav a:hover::before{
+    transform: scaleX(1);
+}
+
+
+.mainthing h6{
+    width: 500px;
+    height: 500px;
+    box-shadow: 5px 5px 5px rgb(143, 140, 140);
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    background-image: url(/images/AsusZenbook14Flip.png);
+    background-repeat: no-repeat;
+    animation: fotoslider 10s ease-in-out;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes fotoslider{
+    20%{background-image: url(/images/AsusZenbook14Flip.png);}
+    40%{background-image: url(/images/AsusZenbook14flip2.png);}
+    60%{background-image: url(/images/AsusZenbook14Flip3.png);}
+    80%{background-image: url(/images/AsusZenbook14Flip4.png);}
+    100%{background-image: url(/images/AsusZenbook14Flip.png);}
+}
+
+#homebutton{
+    color:rgb(196, 23, 179);
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 20px;
+    position: relative;
+    left: 1150px;
+    top: 2%;
+}
+
+#homebutton::before{
+    content: "";
+    position: absolute;
+    bottom:-3px;
+    height:3px;
+    left:0;
+    width:100%;
+    transition: 0.5s;
+    border-radius: 25px;
+    transform: scaleX(0);
+    background: rgb(196, 23, 179);
+}
+
+#homebutton:hover::before{
+    transform: scaleX(1);
+}
+
+
+.mainthing h2{
+    font-family: monterrat;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 570px;
+    left: 150px;
+}
+
+.mainthing h4{
+    color:rgb(196, 23, 179);
+    font-family:monterrat ;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    top: 600px;
+    left: 148px;
+}
+
+.details h1{
+    position: absolute;
+    top: 0px;
+    right: 375px;
+    font-weight: bold;
+}
+
+.Indetails{
+    font-family: monterrat;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+    left: 700px;
+    top: 60px;
+    box-shadow: 4px 4px 4px gray;
+    /* background-color: rgb(216, 215, 215); */
+    width: 400px;
+}
+
+#Buybutton{
+    width: 30px;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    /* gap: 15px; */
+    border:solid 1px;
+    border-radius: 5px;
+    background-color: #1BC768;
+    position: absolute;
+    top: 660px;
+    right: 470px;
+    
+}
+
+#warrantybutton{
+    width: 40px;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    display: flex;
+    padding: 15px 45px;
+    align-items: center;
+    /* gap: 15px; */
+    border:solid 1px;
+    border-radius: 5px;
+    background-color: #1BC768;
+    position: absolute;
+    top: 660px;
+    right: 300px;
+}
+
+
+
+#Buybutton:hover{
+    padding: 15px 35px;
+}
+
+#warrantybutton:hover{
+    padding: 15px 50px;
+}
+
+.otherproducts h1{
+    position: absolute;
+    top: 770px;
+    left: 145px;
+    font-family: monterrat;
+    font-weight: 700;
+}
+
+.otherproductsimg{
+    box-shadow: gray 2px 2px 2px;
+}
+
+.AsusZenbook14Flip{
+    position: relative;
+    left: -100px;
+}
+
+.AsusZenbook14Flip img{
+    width: 200px;
+    height: 145px;
+    position: absolute;
+    top: 870px;
+    left: 210px;
+    box-shadow: gray 2px 2px 2px;
+}
+
+.AsusZenbook14Flip h4{
+    position: absolute;
+    top: 1015px;
+    left: 215px;
+    font-family: monterrat;
+    font-weight: 700;
+}
+
+.AsusZenbook14Flip h5{
+    position: absolute;
+    top: 1040px;
+    left: 215px;
+    font-family: monterrat;
+    font-weight: 700;
+    color:rgb(196, 23, 179);
+}
+
+.AsusZenbook14Flip a{
+    text-decoration: none;
+    position: absolute;
+    top: 1078px;
+    left: 212px;
+    font-family: monterrat;
+    color: black;
+}
+
+.AsusZenbook14Flip a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.AsusROGStrix17{
+    position: relative;
+    right: 140px;
+}
+
+.AsusROGStrix17 img{
+    width: 170px;
+    height: 165px;
+    position: absolute;
+    top: 850px;
+    left: 520px;
+    box-shadow: gray 2px 2px 2px;
+}
+
+.AsusROGStrix17 h4{
+    position: absolute;
+    top: 1015px;
+    left: 521px;
+    font-family: monterrat;
+    font-weight: 700;
+}
+
+.AsusROGStrix17 h5{
+    position: absolute;
+    top: 1040px;
+    left: 521px;
+    font-family: monterrat;
+    font-weight: 700;
+    color:rgb(196, 23, 179);
+}
+
+.AsusROGStrix17 a{
+    text-decoration: none;
+    position: absolute;
+    top: 1078px;
+    left: 520px;
+    font-family: monterrat;
+    color: black;
+}
+
+.AsusROGStrix17 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.rogzephyruss15{
+    position: relative;
+    right: 175px;
+}
+
+.rogzephyruss15 img{
+    width: 200px;
+    height: 167px;
+    position: absolute;
+    top: 850px;
+    left: 785px;
+    box-shadow: gray 2px 2px 2px;
+}
+
+.rogzephyruss15 h4{
+    position: absolute;
+    top: 1015px;
+    left: 786px;
+    font-family: monterrat;
+    font-weight: 700;
+}
+
+.rogzephyruss15 h5{
+    position: absolute;
+    top: 1040px;
+    left: 787px;
+    font-family: monterrat;
+    font-weight: 700;
+    color:rgb(196, 23, 179);
+}
+
+.rogzephyruss15 a{
+    text-decoration: none;
+    position: absolute;
+    top: 1078px;
+    left: 787px;
+    font-family: monterrat;
+    color: black;
+}
+
+.rogzephyruss15 a:hover{
+    color: rgb(196, 23, 179);
+}
+
+.AsusVivobookX{
+    position: relative;
+    right: 210px;
+}
+
+.AsusVivobookX img{
+    width: 200px;
+    height: 167px;
+    position: absolute;
+    top: 850px;
+    left: 1075px;
+    box-shadow: gray 2px 2px 2px;
+}
+
+.AsusVivobookX h4{
+    position: absolute;
+    top: 1015px;
+    left: 1077px;
+    font-family: monterrat;
+    font-weight: 700;
+}
+
+.AsusVivobookX h5{
+    position: absolute;
+    top: 1040px;
+    left: 1077px;
+    font-family: monterrat;
+    font-weight: 700;
+    color:rgb(196, 23, 179);
+}
+
+.AsusVivobookX a{
+    text-decoration: none;
+    position: absolute;
+    top: 1078px;
+    left: 1077px;
+    font-family: monterrat;
+    color: black;
+}
+
+.AsusVivobookX a:hover{
+    color: rgb(196, 23, 179);
+}
+
+.information{
+    background-color: black;
+    position: absolute;
+    top: 1300px;
+    right: 0;
+    width: 1264px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.callus{
+    position: absolute;
+    left: 0px;
+}
+
+.callus p{
+    position: relative;
+    left: 300px;
+    top:50px;
+    color: white;
+}
+
+.callus h6{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 305px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info1{
+    position: relative;
+    left: 270px;
+}
+
+.info1 p{
+    position: relative;
+    left: 300px;
+    top:50px;
+    color: white;
+}
+
+.info1 a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 305px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info2 a{
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding-right: 25px;
+    position: relative;
+    left: 705px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info2 p{
+    position: relative;
+    left: 640px;
+    top: 55px;
+    color: white;
+}
+
+.information a::before{
+    content: "";
+    position: absolute;
+    bottom:-3px;
+    height:2px;
+    left:-13px;
+    width:100%;
+    transition: 0.5s;
+    border-radius: 25px;
+    transform: scaleX(0);
+    background: rgb(248, 248, 248);
+}
+
+.information a:hover::before{
+    transform: scaleX(1);
+}

@@ -1,0 +1,2626 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body{
+    justify-content: center;
+
+}
+
+header{
+    background-color: rgb(196, 23, 179);
+    height: 120px;
+    width:101.3%;
+    position: relative;
+    left:-8px;
+    top:-7.7px;
+}
+
+.logosection h2{
+    display: inline-block;
+}
+
+.logosection{
+    position: absolute;
+    left: 70px;
+    padding:15px 0 30px;
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    left:85px;
+    border:5px rgb(255, 255, 255) solid;
+    border-radius: 80px;
+}
+
+
+
+.logosection h2{
+    color:rgb(255, 255, 255);
+    font-family: montserrat;
+    position: absolute;
+    top:26px;
+    left: 27px;
+}
+
+#h2{
+    position: absolute;
+    left: 170px;
+    top:23px;
+}
+
+nav a{
+    color:rgb(255, 255, 255);
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 20px;
+    position: relative;
+    left: 600px;
+    top: 45px;
+}
+
+nav a::before{
+    content: "";
+    position: absolute;
+    bottom:-3px;
+    height:3px;
+    left:0;
+    width:100%;
+    transition: 0.5s;
+    border-radius: 25px;
+    transform: scaleX(0);
+    background: rgb(255, 255, 255);
+}
+
+nav a:hover::before{
+    transform: scaleX(1);
+}
+
+
+
+.wrapper{
+    background: #644bff;
+    padding: 0 20px;
+    max-width: 450px;
+    margin: 150px auto;
+    position: absolute;
+    top: 1050px;
+    left: 600px;
+}
+
+.wrapper .search-input{
+    background: rgb(196, 23, 179);
+    width: 600px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.search-input input{
+    height: 55px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    background: rgb(196, 23, 179);
+}
+
+.search-input.active input{
+    border-radius: 5px 5px 0 0;
+}
+
+.search-input .autocom-box{
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.search-input.active .autocom-box{
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+    position: relative;
+    
+}
+
+.autocom-box li{
+    list-style: none;
+    padding: 8px 12px;
+    display:none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.search-input.active .autocom-box li{
+    display: block;
+    position: relative;
+}
+
+.autocom-box li:hover{
+    background: #efefef;
+}
+
+.search-input .icon{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    color: #644bff;
+    cursor: pointer;
+}
+
+.slider{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    top:94px;
+    overflow: hidden;
+}
+
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+
+.slider .list img{
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.slider .dots{
+    position: absolute;
+    top: 350px;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.slider .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.slider .dots li.active{
+    width: 30px;
+}
+
+#bestsellertext{
+    position: absolute;
+    top: 600px;
+    left: 530px;
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 17px;
+    color:rgb(196, 23, 179);
+}
+
+.AsusVivobookGo14flipbest{
+    position: absolute;
+    top: 788px;
+    left: 280px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px;
+    
+}
+
+.AsusVivobookGo14flipbest img{
+    width: 300px;
+    height: 350px;
+    position: relative;
+    top:-25px;
+    right: 0px;
+}
+
+.AsusVivobookGo14flipbest h3{
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 40px;
+}
+
+.AsusVivobookGo14flipbest h4{
+    font-size: 20px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 268px;
+}
+
+.AsusVivobookGo14flipbest a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 325px;
+}
+
+.AsusVivobookGo14flipbest a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.HPVictus16best{
+    position: relative;
+    top: 660px;
+    left: 680px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 280px;
+    height: 355px;
+}
+
+.HPVictus16best img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top:20px;
+}
+
+.HPVictus16best h3{
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 45px;
+}
+
+.HPVictus16best h4{
+    font-size: 20px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 268px;
+}
+
+.HPVictus16best a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute  ;
+    left: -2px;
+    top: 325px;
+}
+
+.HPVictus16best a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.products{
+    position: relative;
+    left: -45px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Hplaptops{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.hpvictus16{
+    position: relative;
+    top: 847.5px;
+    left: 80px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 295px;
+}
+
+.hpvictus16 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.hpvictus16 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 45px;
+}
+
+.hpvictus16 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 218px;
+}
+
+.hpvictus16 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 255px;
+}
+
+.hpvictus16 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.HPProBook450G9{
+    position: relative;
+    top: 840px;
+    left: 120px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 305px;
+}
+
+.HPProBook450G9 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:30px;
+}
+
+.HPProBook450G9 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 47px;
+}
+
+.HPProBook450G9 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 225px;
+}
+
+.HPProBook450G9 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 263px;
+}
+
+.HPProBook450G9 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.HPNotebook240G8{
+    position: relative;
+    top: 842px;
+    left: 165;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 307.5px;
+}
+
+.HPNotebook240G8 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.HPNotebook240G8 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 47px;
+}
+
+.HPNotebook240G8 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 225px;
+}
+
+.HPNotebook240G8 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 263px;
+}
+
+.HPNotebook240G8 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.HPOmen16{
+    position: relative;
+    top: 839.5px;
+    left: 205px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.HPOmen16 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.HPOmen16 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.HPOmen16 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.HPOmen16 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.HPOmen16 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.HPpavilion14{
+    position: relative;
+    top: 841px;
+    left: 255px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.HPpavilion14 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.HPpavilion14 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.HPpavilion14 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.HPpavilion14 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.HPpavilion14 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.asuslaptops{
+    position: absolute;
+    left: 0px;
+    top: 350px;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.AsusVivobookGo14flip1{
+    position: relative;
+    top: 840px;
+    left: 80px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.AsusVivobookGo14flip1 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.AsusVivobookGo14flip1 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.AsusVivobookGo14flip1 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.AsusVivobookGo14flip1 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.AsusVivobookGo14flip1 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.AsusZenbook14Flip{
+    position: relative;
+    top: 529px;
+    left: 316px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 205px;
+    height: 313px;
+}
+
+.AsusZenbook14Flip img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.AsusZenbook14Flip h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.AsusZenbook14Flip h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.AsusZenbook14Flip a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.AsusZenbook14Flip a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.AsusROGStrix17{
+    position: relative;
+    top: 219.5px;
+    left: 566.5px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.AsusROGStrix17 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.AsusROGStrix17 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.AsusROGStrix17 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.AsusROGStrix17 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.AsusROGStrix17 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+
+.rogzephyruss15{
+    position: relative;
+    top: -95px;
+    left: 805.5px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 317px;
+}
+
+.rogzephyruss15 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.rogzephyruss15 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.rogzephyruss15 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 236px;
+}
+
+.rogzephyruss15 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 273px;
+}
+
+.rogzephyruss15 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.AsusVivobookX{
+    position: relative;
+    top: -407px;
+    left: 1056px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 317px;
+}
+
+.AsusVivobookX img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.AsusVivobookX h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.AsusVivobookX h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 236px;
+}
+
+.AsusVivobookX a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 271px;
+}
+
+.AsusVivobookX a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.delllaptops{
+    position: absolute;
+    top: 379px;
+    /* display: flex; */
+    flex-direction: row;
+    
+}
+
+.delllatitude3340{
+    position: relative;
+    top: 1160px;
+    left: 70px; 
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 210px;
+    height: 313px;
+}
+
+.delllatitude3340 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.delllatitude3340 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.delllatitude3340 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.delllatitude3340 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.delllatitude3340 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+
+.dellxps13{
+    position: relative;
+    top: 849px;
+    left: 323.5px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.dellxps13 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.dellxps13 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.dellxps13 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.dellxps13 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.dellxps13 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.DELLINSPIRON16Plus{
+    position: relative;
+    top: 539px;
+    left: 568.5px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.DELLINSPIRON16Plus img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.DELLINSPIRON16Plus h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.DELLINSPIRON16Plus h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.DELLINSPIRON16Plus a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.DELLINSPIRON16Plus a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.dellg15{
+    position: relative;
+    top: 229.5px;
+    left: 805px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.dellg15 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.dellg15 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.dellg15 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.dellg15 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.dellg15 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.dellxps9530{
+    position: relative;
+    top: -77.5px;
+    left: 1058px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.dellxps9530 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.dellxps9530 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.dellxps9530 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.dellxps9530 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.dellxps9530 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.msilaptops{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.MSIBravo9S7{
+    position: relative;
+    top: 1893px;
+    left: 80px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.MSIBravo9S7 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.MSIBravo9S7 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.MSIBravo9S7 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.MSIBravo9S7 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.MSIBravo9S7 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.MSIStealth17{
+    position: relative;
+    top: 1894px;
+    left: 121px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.MSIStealth17 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.MSIStealth17 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.MSIStealth17 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.MSIStealth17 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.MSIStealth17 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.MSICrosshair15{
+    position: relative;
+    top: 1895px;
+    left: 165px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.MSICrosshair15 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.MSICrosshair15 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.MSICrosshair15 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.MSICrosshair15 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.MSICrosshair15 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+.MSIKatanaGF66{
+    position: relative;
+    top: 1895px;
+    left: 205.5px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.MSIKatanaGF66 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.MSIKatanaGF66 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.MSIKatanaGF66 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.MSIKatanaGF66 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.MSIKatanaGF66 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+
+.MSIKatanaGF76{
+    position: relative;
+    top: 1895px;
+    left: 257.5px;
+    font-family: montserrat;
+    box-shadow: 25px 25px 25px black;
+    width: 200px;
+    height: 313px;
+}
+
+.MSIKatanaGF76 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:20px;
+}
+
+.MSIKatanaGF76 h3{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 48px;
+}
+
+.MSIKatanaGF76 h4{
+    font-size: 15px;
+    color:rgb(196, 23, 179);
+    position:  absolute;
+    top: 233px;
+}
+
+.MSIKatanaGF76 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+    position: absolute;
+    left: -2px;
+    top: 270px;
+}
+
+.MSIKatanaGF76 a:hover{
+    color:rgb(196, 23, 179);
+}
+
+
+
+.information{
+    background-color: black;
+    position: absolute;
+    top: 2800px;
+    right: 0;
+    width: 1264px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.callus{
+    position: absolute;
+    left: 0px;
+}
+
+.callus p{
+    position: relative;
+    left: 300px;
+    top:50px;
+    color: white;
+}
+
+.callus h6{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 305px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info1{
+    position: relative;
+    left: 270px;
+}
+
+.info1 p{
+    position: relative;
+    left: 300px;
+    top:50px;
+    color: white;
+}
+
+.info1 a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 305px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info2 a{
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding-right: 25px;
+    position: relative;
+    left: 705px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info2 p{
+    position: relative;
+    left: 640px;
+    top: 55px;
+    color: white;
+}
+
+.information a::before{
+    content: "";
+    position: absolute;
+    bottom:-3px;
+    height:2px;
+    left:-13px;
+    width:100%;
+    transition: 0.5s;
+    border-radius: 25px;
+    transform: scaleX(0);
+    background: rgb(248, 248, 248);
+}
+
+.information a:hover::before{
+    transform: scaleX(1);
+}
+
+@media (min-width:320px) and (max-width:767px){
+
+    @font-face {
+        font-family: montserrat;
+        src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        height: 120px;
+        width: 1088px;
+        position: absolute;
+        left:0px;
+        
+    }
+    
+    body{
+        justify-content: center;
+    
+    }
+    
+    .logosection h2{
+        display: inline-block;
+    }
+    
+    .logosection{
+        position: absolute;
+        left: 0px;
+        padding:15px 0 30px;
+    }
+    
+    #logo{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 20px;
+        left:85px;
+        border:5px rgb(255, 255, 255) solid;
+        border-radius: 80px;
+    }
+    
+    
+    
+    .logosection h2{
+        color:rgb(255, 255, 255);
+        font-family: montserrat;
+        position: absolute;
+        top:26px;
+        left: 27px;
+    }
+    
+    #h2{
+        position: absolute;
+        left: 170px;
+        top:23px;
+    }
+    
+    nav a{
+        color:rgb(255, 255, 255);
+        font-family: montserrat;
+        font-weight: 700;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 15px 20px;
+        position: relative;
+        left: 450px;
+        top: 45px;
+    }
+    
+    nav a::before{
+        content: "";
+        position: absolute;
+        bottom:-3px;
+        height:3px;
+        left:0;
+        width:100%;
+        transition: 0.5s;
+        border-radius: 25px;
+        transform: scaleX(0);
+        background: rgb(255, 255, 255);
+    }
+    
+    nav a:hover::before{
+        transform: scaleX(1);
+    }
+    
+    ul{
+        padding: 0;
+        margin:0;
+        font-family: montserrat;
+        position: absolute;
+        top: 1100px;
+        
+    }
+    
+    ul{
+        list-style: none;
+        background:rgb(196, 23, 179) solid;
+    }
+    
+    ul li{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 50px;
+        left: 100px;
+    }
+    
+    ul li a{
+        display: block;
+        padding: 20px 25px ;
+        color:rgb(196, 23, 179);
+        text-decoration: none;
+        /* text-align: start; */
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    ul li ul.dropdownul{
+        /* width:100%; */
+        /* background-color: none; */
+        position: absolute;
+        z-index: 999;
+        display: none;
+    }
+    
+    ul li a:hover{
+        color:rgb(196, 23, 179);
+        
+    }
+    
+    
+    ul li:hover ul.dropdownul{
+        display:block ;
+        position: absolute;
+        left: -100px;
+        top: 0px;
+    }
+    
+    .container{
+        position:absolute;
+        right:0px;
+        top:129;
+        width: 1130px;
+        height: 700px;
+        animation: fotoslider 16s  infinite ease-in-out;
+        background-repeat: no-repeat;
+    }
+    
+    @keyframes fotoslider{
+        
+        0%{background-image:url(/images/foto5.jpg);}
+    
+        25%{background-image:url(/images/fotoimage3.jpg);}
+    
+        50%{background-image:url(/images/foto4.jpg);}
+    
+        75%{background-image:url(/images/foto2.jpg);}
+    
+        100%{background-image:url(/images/foto5.1.jpg);}
+    
+    }
+    
+    
+    
+    #bestsellertext{
+        position: absolute;
+        top: 600px;
+        left: 530px;
+        font-family: montserrat;
+        font-weight: 700;
+        font-size: 17px;
+        color:rgb(196, 23, 179);
+    }
+    
+    .AsusVivobookGo14flipbest{
+        position: absolute;
+        top: 788px;
+        left: 280px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px;
+        
+    }
+    
+    .AsusVivobookGo14flipbest img{
+        width: 300px;
+        height: 350px;
+        position: relative;
+        top:-25px;
+        right: 0px;
+    }
+    
+    .AsusVivobookGo14flipbest h3{
+        font-size: 20px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 40px;
+    }
+    
+    .AsusVivobookGo14flipbest h4{
+        font-size: 20px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 268px;
+    }
+    
+    .AsusVivobookGo14flipbest a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 325px;
+    }
+    
+    .AsusVivobookGo14flipbest a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .HPVictus16best{
+        position: relative;
+        top: 660px;
+        left: 680px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 280px;
+        height: 355px;
+    }
+    
+    .HPVictus16best img{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        top:20px;
+    }
+    
+    .HPVictus16best h3{
+        font-size: 20px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 45px;
+    }
+    
+    .HPVictus16best h4{
+        font-size: 20px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 268px;
+    }
+    
+    .HPVictus16best a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute  ;
+        left: -2px;
+        top: 325px;
+    }
+    
+    .HPVictus16best a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .products{
+        position: relative;
+        left: -45px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .Hplaptops{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .hpvictus16{
+        position: relative;
+        top: 847.5px;
+        left: 80px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 295px;
+    }
+    
+    .hpvictus16 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .hpvictus16 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 45px;
+    }
+    
+    .hpvictus16 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 218px;
+    }
+    
+    .hpvictus16 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 255px;
+    }
+    
+    .hpvictus16 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .HPProBook450G9{
+        position: relative;
+        top: 840px;
+        left: 120px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 305px;
+    }
+    
+    .HPProBook450G9 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:30px;
+    }
+    
+    .HPProBook450G9 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 47px;
+    }
+    
+    .HPProBook450G9 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 225px;
+    }
+    
+    .HPProBook450G9 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 263px;
+    }
+    
+    .HPProBook450G9 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .HPNotebook240G8{
+        position: relative;
+        top: 842px;
+        left: 165;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 307.5px;
+    }
+    
+    .HPNotebook240G8 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .HPNotebook240G8 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 47px;
+    }
+    
+    .HPNotebook240G8 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 225px;
+    }
+    
+    .HPNotebook240G8 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 263px;
+    }
+    
+    .HPNotebook240G8 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .HPOmen16{
+        position: relative;
+        top: 839.5px;
+        left: 205px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .HPOmen16 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .HPOmen16 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .HPOmen16 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .HPOmen16 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .HPOmen16 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .HPpavilion14{
+        position: relative;
+        top: 841px;
+        left: 255px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .HPpavilion14 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .HPpavilion14 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .HPpavilion14 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .HPpavilion14 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .HPpavilion14 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .asuslaptops{
+        position: absolute;
+        left: 0px;
+        top: 350px;
+        /* display: flex; */
+        /* flex-direction: row; */
+    }
+    
+    .AsusVivobookGo14flip1{
+        position: relative;
+        top: 840px;
+        left: 80px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .AsusVivobookGo14flip1 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .AsusVivobookGo14flip1 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .AsusVivobookGo14flip1 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .AsusVivobookGo14flip1 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .AsusVivobookGo14flip1 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .AsusZenbook14Flip{
+        position: relative;
+        top: 529px;
+        left: 316px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 205px;
+        height: 313px;
+    }
+    
+    .AsusZenbook14Flip img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .AsusZenbook14Flip h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .AsusZenbook14Flip h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .AsusZenbook14Flip a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .AsusZenbook14Flip a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .AsusROGStrix17{
+        position: relative;
+        top: 219.5px;
+        left: 566.5px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .AsusROGStrix17 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .AsusROGStrix17 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .AsusROGStrix17 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .AsusROGStrix17 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .AsusROGStrix17 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    
+    .rogzephyruss15{
+        position: relative;
+        top: -95px;
+        left: 805.5px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 317px;
+    }
+    
+    .rogzephyruss15 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .rogzephyruss15 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .rogzephyruss15 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 236px;
+    }
+    
+    .rogzephyruss15 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 273px;
+    }
+    
+    .rogzephyruss15 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .AsusVivobookX{
+        position: relative;
+        top: -407px;
+        left: 1056px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 317px;
+    }
+    
+    .AsusVivobookX img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .AsusVivobookX h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .AsusVivobookX h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 236px;
+    }
+    
+    .AsusVivobookX a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 271px;
+    }
+    
+    .AsusVivobookX a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .delllaptops{
+        position: absolute;
+        top: 379px;
+        /* display: flex; */
+        flex-direction: row;
+        
+    }
+    
+    .delllatitude3340{
+        position: relative;
+        top: 1160px;
+        left: 70px; 
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 210px;
+        height: 313px;
+    }
+    
+    .delllatitude3340 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .delllatitude3340 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .delllatitude3340 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .delllatitude3340 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .delllatitude3340 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    
+    .dellxps13{
+        position: relative;
+        top: 849px;
+        left: 323.5px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .dellxps13 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .dellxps13 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .dellxps13 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .dellxps13 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .dellxps13 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .DELLINSPIRON16Plus{
+        position: relative;
+        top: 539px;
+        left: 568.5px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .DELLINSPIRON16Plus img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .DELLINSPIRON16Plus h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .DELLINSPIRON16Plus h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .DELLINSPIRON16Plus a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .DELLINSPIRON16Plus a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .dellg15{
+        position: relative;
+        top: 229.5px;
+        left: 805px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .dellg15 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .dellg15 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .dellg15 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .dellg15 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .dellg15 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .dellxps9530{
+        position: relative;
+        top: -77.5px;
+        left: 1058px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .dellxps9530 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .dellxps9530 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .dellxps9530 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .dellxps9530 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .dellxps9530 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .msilaptops{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .MSIBravo9S7{
+        position: relative;
+        top: 1893px;
+        left: 80px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .MSIBravo9S7 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .MSIBravo9S7 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .MSIBravo9S7 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .MSIBravo9S7 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .MSIBravo9S7 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .MSIStealth17{
+        position: relative;
+        top: 1894px;
+        left: 121px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .MSIStealth17 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .MSIStealth17 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .MSIStealth17 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .MSIStealth17 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .MSIStealth17 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .MSICrosshair15{
+        position: relative;
+        top: 1895px;
+        left: 165px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .MSICrosshair15 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .MSICrosshair15 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .MSICrosshair15 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .MSICrosshair15 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .MSICrosshair15 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    .MSIKatanaGF66{
+        position: relative;
+        top: 1895px;
+        left: 205.5px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .MSIKatanaGF66 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .MSIKatanaGF66 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .MSIKatanaGF66 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .MSIKatanaGF66 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .MSIKatanaGF66 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    
+    .MSIKatanaGF76{
+        position: relative;
+        top: 1895px;
+        left: 257.5px;
+        font-family: montserrat;
+        box-shadow: 25px 25px 25px black;
+        width: 200px;
+        height: 313px;
+    }
+    
+    .MSIKatanaGF76 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top:20px;
+    }
+    
+    .MSIKatanaGF76 h3{
+        font-size: 15px;
+        font-weight: 900;
+        position: absolute;
+        bottom: 48px;
+    }
+    
+    .MSIKatanaGF76 h4{
+        font-size: 15px;
+        color:rgb(196, 23, 179);
+        position:  absolute;
+        top: 233px;
+    }
+    
+    .MSIKatanaGF76 a{
+        text-decoration: none;
+        color:black;
+        font-weight: 900;
+        position: absolute;
+        left: -2px;
+        top: 270px;
+    }
+    
+    .MSIKatanaGF76 a:hover{
+        color:rgb(196, 23, 179);
+    }
+    
+    
+    
+    .information{
+        background-color: black;
+        position: absolute;
+        top: 2800px;
+        right: 0;
+        width: 1264px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .callus{
+        position: absolute;
+        left: 0px;
+    }
+    
+    .callus p{
+        position: relative;
+        left: 300px;
+        top:50px;
+        color: white;
+    }
+    
+    .callus h6{
+        text-decoration: none;
+        color: white;
+        position: relative;
+        left: 305px;
+        top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .info1{
+        position: relative;
+        left: 270px;
+    }
+    
+    .info1 p{
+        position: relative;
+        left: 300px;
+        top:50px;
+        color: white;
+    }
+    
+    .info1 a{
+        text-decoration: none;
+        color: white;
+        position: relative;
+        left: 305px;
+        top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .info2 a{
+        text-decoration: none;
+        color: white;
+        padding-top: 15px;
+        padding-right: 25px;
+        position: relative;
+        left: 705px;
+        top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .info2 p{
+        position: relative;
+        left: 640px;
+        top: 55px;
+        color: white;
+    }
+    
+    .information a::before{
+        content: "";
+        position: absolute;
+        bottom:-3px;
+        height:2px;
+        left:-13px;
+        width:100%;
+        transition: 0.5s;
+        border-radius: 25px;
+        transform: scaleX(0);
+        background: rgb(248, 248, 248);
+    }
+    
+    .information a:hover::before{
+        transform: scaleX(1);
+    }
+}

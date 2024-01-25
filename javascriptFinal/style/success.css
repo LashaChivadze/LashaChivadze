@@ -1,0 +1,30 @@
+body{
+    width: 1100px;
+}
+
+
+#successimg{
+ width: 50px;
+ height: 50px;
+ position: relative;
+ top: 200px;
+ left:600px;
+}
+
+body p{
+    font-size: large;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    font-weight: bold;
+}
+
+body a{
+    text-decoration: none;
+    color: rgb(196, 23, 179);
+    position: absolute;
+    top: 350px;
+    left: 530px;
+    font-weight: bold;
+}
+
