@@ -1,10 +1,17 @@
 - 👋 Hi, I’m @LashaChivadze
 - 👀 I’m interested in Frontend Development
 - 🌱 I’m currently learning React
-- 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me chivadzelasha2010@gmail.com
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+-I am just 13 years old and i am trying to achive my goals. i am stydying and working on a same time and if someone is intrested in hiring online frontend developer(HTML/CSS, javascript and react) message me on email 
+
+
+
+
+
+
+
+
+
 
 <!---
 LashaChivadze/LashaChivadze is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
